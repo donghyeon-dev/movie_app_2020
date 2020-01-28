@@ -1,14 +1,11 @@
 import React from "react";
+import Potato from "./Potato";
 
 function App() {
   return (
     <div>
       <h1>Hello world</h1>
-      <span>Second Line</span>
-      <br></br>
-      <a href="http://www.google.com" target="_blank">
-        google
-      </a>
+      <Potato />
     </div>
   );
 }
